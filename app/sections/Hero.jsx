@@ -25,7 +25,7 @@ function Hero() {
           max-sm:text-[72px] font-bold max-sm:leading-[82px]
         "
         >
-          <span className="xl:bg-white xl:whitespace-nowrap relative pr-10 z-10">
+          <span className="xl:bg-white xl:whitespace-nowrap relative pr-10 z-[5]">
             The New Arrival
           </span>
           <br />
@@ -56,9 +56,9 @@ function Hero() {
           src={bigShoeImage}
           alt="show collections"
           width={610}
-          className="object-contain z-10 relative"
+          className="object-contain z-2 relative"
         />
-        <div className="absolute z-20 flex flex-row sm:gap-6 gap-4 -bottom-[5%] sm:left[50%] max-sm:px-6">
+        <div className="absolute z-10 flex flex-row sm:gap-6 gap-4 -bottom-[5%] sm:left[50%] max-sm:px-6">
           {shoes.map((shoe, index) => (
             <div key={index}>
               <ShoeCard

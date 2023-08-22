@@ -13,7 +13,7 @@ function PopularProduct() {
           selections. Discover a world of comfort, design, and value
         </p>
       </div>
-      <div className="mt-16 grid lg:grid-cols-4 md:grid-cols-3 sm:gap-4 gap-14">
+      <div className="mt-16 grid lg:grid-cols-4 md:grid-cols-3 sm:gap-4 gap-14 justify-center">
         {products.map((product, index) => (
           <ProductCard
             key={index}
